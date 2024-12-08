@@ -1,0 +1,146 @@
+/* General Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header Styling */
+header {
+    background-color: #222;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.logo h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+
+/* Hero Section Styling */
+.hero {
+    background-image: url('https://images.unsplash.com/photo-1617677458944-b39140d92d02?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'); /* Replace with your image URL */
+    background-size: cover; /* Ensures the image covers the full width */
+    background-position: top; /* Centers the background image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    height: 700px; /* Sets the height to 800px */
+    width: 100%; /* Ensures full width of the page */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.hero-text h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    font-size: 1.2rem;
+}
+
+.artikel{
+    text-align: center;
+    color: #222;
+}
+
+.artikel-text h1{
+    font-size: 3rem;
+    margin-bottom: 1px;
+}
+
+.artikel-text h2{
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+}
+
+.artikel-text h3{
+    font-size: 1.2rem;
+}
+
+.artikel-text p{
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.article ul li a {
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #222;
+}
+
+/* Content Section */
+.content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.article img {
+    width: 100%;
+    height: 78%;
+    border-radius: 10px;
+}
+
+.article h3 {
+    font-size: 1.5rem;
+    margin: 15px 0;
+}
+
+.article h3 a{
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #222;
+}
+
+.article p {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.custom-divider {
+    border: none; /* Remove default border */
+    height: 3px; /* Set thickness */
+    background-color: #222; /* Set color */
+    width: 60%; /* Set the width of the divider */
+    margin: 2px auto; /* Center the divider and add space around it */
+    margin-bottom: 10px;
+}
+
