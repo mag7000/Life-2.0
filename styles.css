@@ -98,7 +98,7 @@ nav ul li a {
 
 /* Content Section */
 .content {
-    display: flex;
+    display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     padding: 20px;
