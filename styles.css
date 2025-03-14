@@ -102,6 +102,7 @@ nav ul li a {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive grid */
     gap: 20px;
     padding: 20px;
+    place-items: center;
 }
 
 .article img {
