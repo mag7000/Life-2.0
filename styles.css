@@ -1,5 +1,5 @@
 /* General Styling */
-* {
+{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -10,6 +10,8 @@ body {
     background-color: #f4f4f4;
     color: #333;
     line-height: 1.6;
+    text-align: center;
+    padding: 0 20px;
 }
 
 /* Header Styling */
@@ -112,6 +114,11 @@ nav ul li a {
     gap: 20px;
     padding: 20px;
     place-items: center;
+}
+
+.article-text {
+    max-width: 90%;
+    margin: 0 auto;
 }
 
 .article img {
