@@ -127,7 +127,7 @@ nav ul li a {
 }
 
 .article-text {
-    max-width: 75%;
+    max-width: 600px;
     margin: 0 auto;
 }
 
