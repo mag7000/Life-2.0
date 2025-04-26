@@ -1,18 +1,27 @@
 /* General Styling */
-{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Arial', sans-serif;
 }
 
-body {
+html,body {
+    height: 100%;
 	margin: 0;
     padding: 0;
     background-color: #f4f4f4;
     color: #333;
     line-height: 1.6;
+    display: flex;
+    flex-direction: column;
     text-align: center;
+}
+
+.wrapper {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
 }
 
 /* Header Styling */
@@ -176,7 +185,24 @@ footer {
     border: none;
     height: 3px;
     background-color: #222;
-    width: 60%;
+    width: 100%;
     margin: 2px auto;
     margin-bottom: 10px;
+}
+
+.mail img {
+    width: 8%;
+    height: auto;
+}
+
+.article ul li a {
+    display: block;
+    max-width: 400px;
+    margin: auto;
+    margin-bottom: 20px;
+    background-color: #222;
+    text-decoration: none;
+    border-radius: 20px;
+    color: white;
+    padding: 10px;
 }
