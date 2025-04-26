@@ -190,6 +190,10 @@ footer {
     margin-bottom: 10px;
 }
 
+.text-two {
+    columns: 2;
+}
+
 .mail img {
     width: 8%;
     height: auto;
