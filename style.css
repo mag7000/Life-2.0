@@ -271,9 +271,9 @@ footer {
     max-width: 400px;
     margin: auto;
     margin-bottom: 20px;
-    background-color: #222;
+    background-color: #c9c9c9;
     text-decoration: none;
     border-radius: 20px;
-    color: white;
+    color: black;
     padding: 10px;
 }
